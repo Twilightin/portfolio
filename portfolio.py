@@ -57,7 +57,7 @@ st.markdown("""
 st.markdown('<p class="big-font">Hello World !!</p>', unsafe_allow_html=True)
 
 annotated_text(('機械学習', 'カテゴリ', "#8ef"))
-st.markdown("[リンク先](%s)" % url01)
+st.markdown("<p class="big-font">[リンク先](%s)</p>" % url01)
 with st.expander("デモンストレーション(10s)"):
     st.write('A simple video demo created by myself.')
     st.video(video_bytes01)
