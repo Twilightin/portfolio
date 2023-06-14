@@ -52,7 +52,7 @@ colored_header(
     description="",
     color_name="violet-70",
 )
-annotated_text('入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈', '機械学習', "#8ef"))
+annotated_text(('入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈', '機械学習', "#8ef"))
 st.markdown("[リンク先](%s)でアプリを確認" % url01)
 with st.expander("デモンストレーション(10s)"):
     st.write('A simple video demo created by myself.')
