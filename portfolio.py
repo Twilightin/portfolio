@@ -54,7 +54,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.image('port01.png')
+st.image('port01.png', width = 400)
 st.header("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈")
 annotated_text(('機械学習', 'カテゴリ', "#8ef"))
 st.markdown('[リンク先](%s)' % url01)
@@ -64,7 +64,7 @@ with st.expander("デモンストレーション(10s)"):
 st.markdown("""---""")
 
 # 02
-st.image('port02.jpg')
+st.image('port02.jpg', width = 300)
 st.header("各メディアのTOPニュース(URL含め)のまとめサイト")
 annotated_text(('スクレイピング', 'カテゴリ', "#faa"))
 st.markdown("[リンク先](%s)" % url02)
@@ -114,7 +114,7 @@ with st.expander("デモンストレーション(10s)"):
 st.markdown("""---""")
 
 # 07
-st.image('port7.jpg')
+st.image('port07.jpg')
 st.header("ChatGPT(GPT3.5)より自分用の高度なChatGPT(text-davinci-003のAPI利用)構築")
 annotated_text(('API活用', 'カテゴリ', "#fea"))
 st.markdown("[リンク先](%s)" % url07)
