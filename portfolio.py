@@ -18,88 +18,90 @@ url05 = 'https://twilightin-covview-app-covview-app-wf3ten.streamlit.app/'
 url06 = 'https://twilightin-covdl-app-covdl-app-7xzhq6.streamlit.app/'
 url07 = 'https://twilightin-app-apigpt-app-apigpt-4plb8a.streamlit.app/'
 
+
 video_file01 = open('app02.mp4', 'rb')
 video_bytes01 = video_file01.read()
 
 video_file02 = open('app02.mp4', 'rb')
 video_bytes02 = video_file02.read()
 
-video_file3 = open('app03.mp4', 'rb')
-video_bytes3 = video_file3.read()
+video_file03 = open('app03.mp4', 'rb')
+video_bytes03 = video_file03.read()
 
-video_file4 = open('app04.mp4', 'rb')
-video_bytes4 = video_file4.read()
+video_file04 = open('app04.mp4', 'rb')
+video_bytes04 = video_file04.read()
 
-video_file5 = open('app05.mp4', 'rb')
-video_bytes5 = video_file5.read()
+video_file05 = open('app05.mp4', 'rb')
+video_bytes05 = video_file05.read()
 
-video_file6 = open('app06.mp4', 'rb')
-video_bytes6 = video_file6.read()
+video_file06 = open('app06.mp4', 'rb')
+video_bytes06 = video_file06.read()
 
-video_file7 = open('app07.mp4', 'rb')
-video_bytes7 = video_file7.read()
+video_file07 = open('app07.mp4', 'rb')
+video_bytes07 = video_file07.read()
+
 
 #step.2 output new
 
 # 01
-st.title("“ü—Íƒf[ƒ^‚É‰‚¶‚Äƒ‚ƒfƒ‹(Xgboost)—\‘ª‚ÌŒ‹‰Ê‚ÆSHAP‚É‚æ‚éƒ‚ƒfƒ‹‚Ì‰ğß")
-annotated_text(('ƒJƒeƒSƒŠ', '‹@ŠBŠwK'))
-st.markdown("[ƒŠƒ“ƒNæ](%s)‚ÅƒAƒvƒŠ‚ğŠm”F" % url01)
-with st.expander("ƒfƒ‚ƒ“ƒXƒgƒŒ[ƒVƒ‡ƒ“(10s)"):
+st.title("å…¥åŠ›ãƒ‡ãƒ¼ã‚¿ã«å¿œã˜ã¦ãƒ¢ãƒ‡ãƒ«(Xgboost)äºˆæ¸¬ã®çµæœã¨SHAPã«ã‚ˆã‚‹ãƒ¢ãƒ‡ãƒ«ã®è§£é‡ˆ")
+annotated_text(('ã‚«ãƒ†ã‚´ãƒª', 'æ©Ÿæ¢°å­¦ç¿’'))
+st.markdown("[ãƒªãƒ³ã‚¯å…ˆ](%s)ã§ã‚¢ãƒ—ãƒªã‚’ç¢ºèª" % url01)
+with st.expander("ãƒ‡ãƒ¢ãƒ³ã‚¹ãƒˆãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³(10s)"):
     st.write('A simple video demo created by myself.')
     st.video(video_bytes01)
 st.markdown("""---""")
 
 # 02
-st.title("ŠeƒƒfƒBƒA‚ÌTOPƒjƒ…[ƒX(URLŠÜ‚ß)‚Ì‚Ü‚Æ‚ßƒTƒCƒg")
-annotated_text(('ƒJƒeƒSƒŠ', 'ƒXƒNƒŒƒCƒsƒ“ƒO'))
-st.markdown("[ƒŠƒ“ƒNæ](%s)‚ÅƒAƒvƒŠ‚ğŠm”F" % url01)
-with st.expander("ƒfƒ‚ƒ“ƒXƒgƒŒ[ƒVƒ‡ƒ“(10s)"):
+st.title("å„ãƒ¡ãƒ‡ã‚£ã‚¢ã®TOPãƒ‹ãƒ¥ãƒ¼ã‚¹(URLå«ã‚)ã®ã¾ã¨ã‚ã‚µã‚¤ãƒˆ")
+annotated_text(('ã‚«ãƒ†ã‚´ãƒª', 'ã‚¹ã‚¯ãƒ¬ã‚¤ãƒ”ãƒ³ã‚°'))
+st.markdown("[ãƒªãƒ³ã‚¯å…ˆ](%s)ã§ã‚¢ãƒ—ãƒªã‚’ç¢ºèª" % url01)
+with st.expander("ãƒ‡ãƒ¢ãƒ³ã‚¹ãƒˆãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³(10s)"):
     st.write('A simple video demo created by myself.')
     st.video(video_bytes02)
 st.markdown("""---""")
 
 # 03
-st.title("Še‘GDP‚Æ•½‹Ïõ–½‚Ì‘ŠŠÖ‚ğŒn—ñ‚Å“®“I‚É•\Œ»")
-annotated_text(('ƒJƒeƒSƒŠ', 'ƒf[ƒ^‰Â‹‰»'))
-st.markdown("[ƒŠƒ“ƒNæ](%s)‚ÅƒAƒvƒŠ‚ğŠm”F" % url01)
-with st.expander("ƒfƒ‚ƒ“ƒXƒgƒŒ[ƒVƒ‡ƒ“(10s)"):
+st.title("å„å›½GDPã¨å¹³å‡å¯¿å‘½ã®ç›¸é–¢ã‚’æ™‚ç³»åˆ—ã§å‹•çš„ã«è¡¨ç¾")
+annotated_text(('ã‚«ãƒ†ã‚´ãƒª', 'ãƒ‡ãƒ¼ã‚¿å¯è¦–åŒ–'))
+st.markdown("[ãƒªãƒ³ã‚¯å…ˆ](%s)ã§ã‚¢ãƒ—ãƒªã‚’ç¢ºèª" % url01)
+with st.expander("ãƒ‡ãƒ¢ãƒ³ã‚¹ãƒˆãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³(10s)"):
     st.write('A simple video demo created by myself.')
     st.video(video_bytes03)
 st.markdown("""---""")
 
 # 04
-st.title("Še‘‚ÌƒRƒƒiV‹KŠ´õÒ‚Ì„ˆÚ‚ğ“®“I‚É•\Œ»")
-annotated_text(('ƒJƒeƒSƒŠ', 'ƒf[ƒ^‰Â‹‰»'))
-st.markdown("[ƒŠƒ“ƒNæ](%s)‚ÅƒAƒvƒŠ‚ğŠm”F" % url01)
-with st.expander("ƒfƒ‚ƒ“ƒXƒgƒŒ[ƒVƒ‡ƒ“(10s)"):
+st.title("å„å›½ã®ã‚³ãƒ­ãƒŠæ–°è¦æ„ŸæŸ“è€…ã®æ¨ç§»ã‚’å‹•çš„ã«è¡¨ç¾")
+annotated_text(('ã‚«ãƒ†ã‚´ãƒª', 'ãƒ‡ãƒ¼ã‚¿å¯è¦–åŒ–'))
+st.markdown("[ãƒªãƒ³ã‚¯å…ˆ](%s)ã§ã‚¢ãƒ—ãƒªã‚’ç¢ºèª" % url01)
+with st.expander("ãƒ‡ãƒ¢ãƒ³ã‚¹ãƒˆãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³(10s)"):
     st.write('A simple video demo created by myself.')
     st.video(video_bytes04)
 st.markdown("""---""")
 
 # 05
-st.title("‘•Ê‚ÌƒRƒƒiV‹KŠ´õÒ/€–SÒ‚Ì„ˆÚ‚Æ—İŒv")
-annotated_text(('ƒJƒeƒSƒŠ', 'ƒf[ƒ^‰Â‹‰»'))
-st.markdown("[ƒŠƒ“ƒNæ](%s)‚ÅƒAƒvƒŠ‚ğŠm”F" % url01)
-with st.expander("ƒfƒ‚ƒ“ƒXƒgƒŒ[ƒVƒ‡ƒ“(10s)"):
+st.title("å›½åˆ¥ã®ã‚³ãƒ­ãƒŠæ–°è¦æ„ŸæŸ“è€…/æ­»äº¡è€…ã®æ¨ç§»ã¨ç´¯è¨ˆ")
+annotated_text(('ã‚«ãƒ†ã‚´ãƒª', 'ãƒ‡ãƒ¼ã‚¿å¯è¦–åŒ–'))
+st.markdown("[ãƒªãƒ³ã‚¯å…ˆ](%s)ã§ã‚¢ãƒ—ãƒªã‚’ç¢ºèª" % url01)
+with st.expander("ãƒ‡ãƒ¢ãƒ³ã‚¹ãƒˆãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³(10s)"):
     st.write('A simple video demo created by myself.')
     st.video(video_bytes05)
 st.markdown("""---""")
 
 # 06
-st.title("“Á’è‘/’nˆæ‚ÌƒRƒƒiV‹KŠ´õÒ‚Ìƒf[ƒ^ƒ_ƒEƒ“ƒ[ƒhƒAƒvƒŠ")
-annotated_text(('ƒJƒeƒSƒŠ', 'ƒf[ƒ^’Šo'))
-st.markdown("[ƒŠƒ“ƒNæ](%s)‚ÅƒAƒvƒŠ‚ğŠm”F" % url01)
-with st.expander("ƒfƒ‚ƒ“ƒXƒgƒŒ[ƒVƒ‡ƒ“(10s)"):
+st.title("ç‰¹å®šå›½/åœ°åŸŸã®ã‚³ãƒ­ãƒŠæ–°è¦æ„ŸæŸ“è€…ã®ãƒ‡ãƒ¼ã‚¿ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã‚¢ãƒ—ãƒª")
+annotated_text(('ã‚«ãƒ†ã‚´ãƒª', 'ãƒ‡ãƒ¼ã‚¿æŠ½å‡º'))
+st.markdown("[ãƒªãƒ³ã‚¯å…ˆ](%s)ã§ã‚¢ãƒ—ãƒªã‚’ç¢ºèª" % url01)
+with st.expander("ãƒ‡ãƒ¢ãƒ³ã‚¹ãƒˆãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³(10s)"):
     st.write('A simple video demo created by myself.')
     st.video(video_bytes06)
 st.markdown("""---""")
 
 # 07
-st.title("ChatGPT(GPT3.5)‚æ‚è©•ª—p‚Ì‚“x‚ÈChatGPT(text-davinci-003‚ÌAPI—˜—p)\’z")
-annotated_text(('ƒJƒeƒSƒŠ', 'API'))
-st.markdown("[ƒŠƒ“ƒNæ](%s)‚ÅƒAƒvƒŠ‚ğŠm”F" % url01)
-with st.expander("ƒfƒ‚ƒ“ƒXƒgƒŒ[ƒVƒ‡ƒ“(10s)"):
+st.title("ChatGPT(GPT3.5)ã‚ˆã‚Šè‡ªåˆ†ç”¨ã®é«˜åº¦ãªChatGPT(text-davinci-003ã®APIåˆ©ç”¨)æ§‹ç¯‰")
+annotated_text(('ã‚«ãƒ†ã‚´ãƒª', 'API'))
+st.markdown("[ãƒªãƒ³ã‚¯å…ˆ](%s)ã§ã‚¢ãƒ—ãƒªã‚’ç¢ºèª" % url01)
+with st.expander("ãƒ‡ãƒ¢ãƒ³ã‚¹ãƒˆãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³(10s)"):
     st.write('A simple video demo created by myself.')
     st.video(video_bytes07)
 st.markdown("""---""")
