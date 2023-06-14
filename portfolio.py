@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+from PIL import Image
 
 from annotated_text import annotated_text
 from streamlit_extras.colored_header import colored_header
