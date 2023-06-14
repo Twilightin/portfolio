@@ -63,6 +63,8 @@ with st.expander("デモンストレーション(10s)"):
 st.markdown("""---""")
 
 # 02
+
+st.header("各メディアのTOPニュース(URL含め)のまとめサイト")
 st.title("各メディアのTOPニュース(URL含め)のまとめサイト")
 annotated_text(('スクレイピング', 'カテゴリ', "#faa"))
 st.markdown("[リンク先](%s)" % url02)
