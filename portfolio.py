@@ -60,7 +60,7 @@ video_bytes07 = video_file07.read()
 
 # 01
 st.title("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈")
-annotated_text(('カテゴリ', '機械学習'))
+annotated_text(('カテゴリ', '機械学習', "#8ef"))
 st.markdown("[リンク先](%s)でアプリを確認" % url01)
 with st.expander("デモンストレーション(10s)"):
     st.write('A simple video demo created by myself.')
@@ -69,7 +69,7 @@ st.markdown("""---""")
 
 # 02
 st.title("各メディアのTOPニュース(URL含め)のまとめサイト")
-annotated_text(('カテゴリ', 'スクレイピング'))
+annotated_text(('カテゴリ', 'スクレイピング', "#faa"))
 st.markdown("[リンク先](%s)でアプリを確認" % url01)
 with st.expander("デモンストレーション(10s)"):
     st.write('A simple video demo created by myself.')
@@ -78,7 +78,7 @@ st.markdown("""---""")
 
 # 03
 st.title("各国GDPと平均寿命の相関を時系列で動的に表現")
-annotated_text(('カテゴリ', 'データ可視化'))
+annotated_text(('カテゴリ', 'データ可視化', '#afa'))
 st.markdown("[リンク先](%s)でアプリを確認" % url01)
 with st.expander("デモンストレーション(10s)"):
     st.write('A simple video demo created by myself.')
@@ -87,7 +87,7 @@ st.markdown("""---""")
 
 # 04
 st.title("各国のコロナ新規感染者の推移を動的に表現")
-annotated_text(('カテゴリ', 'データ可視化'))
+annotated_text(('カテゴリ', 'データ可視化', '#afa'))
 st.markdown("[リンク先](%s)でアプリを確認" % url01)
 with st.expander("デモンストレーション(10s)"):
     st.write('A simple video demo created by myself.')
@@ -96,7 +96,7 @@ st.markdown("""---""")
 
 # 05
 st.title("国別のコロナ新規感染者/死亡者の推移と累計")
-annotated_text(('カテゴリ', 'データ可視化'))
+annotated_text(('カテゴリ', 'データ可視化', '#afa'))
 st.markdown("[リンク先](%s)でアプリを確認" % url01)
 with st.expander("デモンストレーション(10s)"):
     st.write('A simple video demo created by myself.')
@@ -105,7 +105,7 @@ st.markdown("""---""")
 
 # 06
 st.title("特定国/地域のコロナ新規感染者のデータダウンロードアプリ")
-annotated_text(('カテゴリ', 'データ抽出'))
+annotated_text(('カテゴリ', 'データ可視化', '#afa'))
 st.markdown("[リンク先](%s)でアプリを確認" % url01)
 with st.expander("デモンストレーション(10s)"):
     st.write('A simple video demo created by myself.')
@@ -114,7 +114,7 @@ st.markdown("""---""")
 
 # 07
 st.title("ChatGPT(GPT3.5)より自分用の高度なChatGPT(text-davinci-003のAPI利用)構築")
-annotated_text(('カテゴリ', 'API'))
+annotated_text(('カテゴリ', 'API活用', "#fea"))
 st.markdown("[リンク先](%s)でアプリを確認" % url01)
 with st.expander("デモンストレーション(10s)"):
     st.write('A simple video demo created by myself.')
