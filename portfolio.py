@@ -49,15 +49,14 @@ video_bytes07 = video_file07.read()
 st.markdown("""
 <style>
 .big-font {
-    font-size:10px !important;
+    font-size:16px !important;
 }
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<p class="big-font">Hello World !!</p>', unsafe_allow_html=True)
-
+st.markdown('<p class="big-font">入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈</p>', unsafe_allow_html=True)
 annotated_text(('機械学習', 'カテゴリ', "#8ef"))
-st.markdown('<p class="big-font">[リンク先]</p>(%s)' % url01)
+st.markdown('[リンク先](%s)' % url01)
 with st.expander("デモンストレーション(10s)"):
     st.write('A simple video demo created by myself.')
     st.video(video_bytes01)
