@@ -54,7 +54,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.image('port01.png', width = 500)
+st.image('port01.png', width = 580)
 st.header("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈")
 annotated_text(('機械学習', 'カテゴリ', "#8ef"))
 st.markdown('[リンク先](%s)' % url01)
@@ -64,7 +64,7 @@ with st.expander("デモンストレーション(10s)"):
 st.markdown("""---""")
 
 # 02
-st.image('port02.jpg', width = 560)
+st.image('port02.jpg', width = 580)
 st.header("各メディアのTOPニュース(URL含め)のまとめサイト")
 annotated_text(('スクレイピング', 'カテゴリ', "#faa"))
 st.markdown("[リンク先](%s)" % url02)
@@ -74,7 +74,7 @@ with st.expander("デモンストレーション(10s)"):
 st.markdown("""---""")
 
 # 03
-st.image('port03.png')
+st.image('port03.png', width = 580)
 st.header("各国GDPと平均寿命の相関を時系列で動的に表現")
 annotated_text(('データ可視化', 'カテゴリ', '#afa'))
 st.markdown("[リンク先](%s)" % url03)
@@ -84,7 +84,7 @@ with st.expander("デモンストレーション(10s)"):
 st.markdown("""---""")
 
 # 04
-st.image('port04.jpg')
+st.image('port04.jpg', width = 580)
 st.header("各国のコロナ新規感染者の推移を動的に表現")
 annotated_text(('データ可視化', 'カテゴリ', '#afa'))
 st.markdown("[リンク先](%s)" % url04)
@@ -94,7 +94,7 @@ with st.expander("デモンストレーション(10s)"):
 st.markdown("""---""")
 
 # 05
-st.image('port05.jpg')
+st.image('port05.jpg', width = 580)
 st.header("国別のコロナ新規感染者/死亡者の推移と累計")
 annotated_text(('データ可視化', 'カテゴリ', '#afa'))
 st.markdown("[リンク先](%s)" % url05)
@@ -104,7 +104,7 @@ with st.expander("デモンストレーション(10s)"):
 st.markdown("""---""")
 
 # 06
-st.image('port06.jpg')
+st.image('port06.jpg', width = 580)
 st.header("特定国/地域のコロナ新規感染者のデータダウンロードアプリ")
 annotated_text(('データ可視化', 'カテゴリ', '#afa'))
 st.markdown("[リンク先](%s)" % url06)
@@ -114,7 +114,7 @@ with st.expander("デモンストレーション(10s)"):
 st.markdown("""---""")
 
 # 07
-st.image('port07.jpg')
+st.image('port07.jpg', width = 580)
 st.header("ChatGPT(GPT3.5)より自分用の高度なChatGPT(text-davinci-003のAPI利用)構築")
 annotated_text(('API活用', 'カテゴリ', "#fea"))
 st.markdown("[リンク先](%s)" % url07)
