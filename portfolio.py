@@ -4,20 +4,6 @@ import streamlit as st
 from annotated_text import annotated_text
 from streamlit_extras.colored_header import colored_header
 
-annotated_text(
-    "This ",
-    ("is", "verb", "#8ef"),
-    " some ",
-    ("annotated", "adj", "#faa"),
-    ("text", "noun", "#afa"),
-    " for those of ",
-    ("you", "pronoun", "#fea"),
-    " who ",
-    ("like", "verb", "#8ef"),
-    " this sort of ",
-    ("thing", "noun", "#afa"),
-)
-
 def header(url):
      st.markdown(f'<p style="background-color:#0066cc;color:#33ff33;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
 
@@ -66,7 +52,7 @@ colored_header(
     description="",
     color_name="violet-70",
 )
-annotated_text((入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈', '機械学習', "#8ef"))
+annotated_text('入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈', '機械学習', "#8ef"))
 st.markdown("[リンク先](%s)でアプリを確認" % url01)
 with st.expander("デモンストレーション(10s)"):
     st.write('A simple video demo created by myself.')
