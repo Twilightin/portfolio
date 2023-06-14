@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 
 from annotated_text import annotated_text
+from streamlit_extras.colored_header import colored_header
 
 annotated_text(
     "This ",
@@ -59,7 +60,12 @@ video_bytes07 = video_file07.read()
 #step.2 output new
 
 # 01
-st.title("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈")
+
+colored_header(
+    label="機械学習応用",
+    description="入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈",
+    color_name="violet-70",
+)
 annotated_text(('機械学習', 'カテゴリ', "#8ef"))
 st.markdown("[リンク先](%s)でアプリを確認" % url01)
 with st.expander("デモンストレーション(10s)"):
