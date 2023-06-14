@@ -64,7 +64,7 @@ with st.expander("デモンストレーション(10s)"):
 st.markdown("""---""")
 
 # 02
-st.image('port01.jpg')
+st.image('port02.jpg')
 st.header("各メディアのTOPニュース(URL含め)のまとめサイト")
 annotated_text(('スクレイピング', 'カテゴリ', "#faa"))
 st.markdown("[リンク先](%s)" % url02)
