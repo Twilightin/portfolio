@@ -46,14 +46,18 @@ video_bytes07 = video_file07.read()
 #step.2 output new
 
 # 01
+st.markdown("""
+<style>
+.big-font {
+    font-size:10px !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
-colored_header(
-    label="",
-    description="",
-    color_name="violet-70",
-)
-annotated_text(('入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈', '機械学習', "#8ef"))
-st.markdown("[リンク先](%s)でアプリを確認" % url01)
+st.markdown('<p class="big-font">Hello World !!</p>', unsafe_allow_html=True)
+
+annotated_text(('機械学習', 'カテゴリ', "#8ef"))
+st.markdown("[リンク先](%s)" % url01)
 with st.expander("デモンストレーション(10s)"):
     st.write('A simple video demo created by myself.')
     st.video(video_bytes01)
@@ -62,7 +66,7 @@ st.markdown("""---""")
 # 02
 st.title("各メディアのTOPニュース(URL含め)のまとめサイト")
 annotated_text(('スクレイピング', 'カテゴリ', "#faa"))
-st.markdown("[リンク先](%s)でアプリを確認" % url01)
+st.markdown("[リンク先](%s)" % url02)
 with st.expander("デモンストレーション(10s)"):
     st.write('A simple video demo created by myself.')
     st.video(video_bytes02)
@@ -71,7 +75,7 @@ st.markdown("""---""")
 # 03
 st.title("各国GDPと平均寿命の相関を時系列で動的に表現")
 annotated_text(('データ可視化', 'カテゴリ', '#afa'))
-st.markdown("[リンク先](%s)でアプリを確認" % url01)
+st.markdown("[リンク先](%s)" % url03)
 with st.expander("デモンストレーション(10s)"):
     st.write('A simple video demo created by myself.')
     st.video(video_bytes03)
