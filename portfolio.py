@@ -1,6 +1,21 @@
 import pandas as pd
 import streamlit as st
+
 from annotated_text import annotated_text
+
+annotated_text(
+    "This ",
+    ("is", "verb", "#8ef"),
+    " some ",
+    ("annotated", "adj", "#faa"),
+    ("text", "noun", "#afa"),
+    " for those of ",
+    ("you", "pronoun", "#fea"),
+    " who ",
+    ("like", "verb", "#8ef"),
+    " this sort of ",
+    ("thing", "noun", "#afa"),
+)
 
 def header(url):
      st.markdown(f'<p style="background-color:#0066cc;color:#33ff33;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
