@@ -11,7 +11,9 @@ def header(url):
 # header("notice")
 
 with st.sidebar:
-  st.title("My Portfolio")
+  st.title('郭 熾辰')
+  st.header("Chishin Kaku")
+  st.write('A passionate data scientist')
 
 url01 = 'https://twilightin-titanicpred-app-titanicpred-app-48ml2g.streamlit.app/'
 url02 = 'https://twilightin-topnews-app-topnews-app-nmz8mo.streamlit.app/'
