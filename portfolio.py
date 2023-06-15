@@ -68,7 +68,7 @@ st.image(image01, width = 580)
 st.header("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈")
 annotated_text(('機械学習', 'カテゴリ', "#8ef"))
 st.markdown('[リンク先](%s)' % url01)
-with st.expander("デモンストレーション(10s)"):
+with st.expander("デモンストレーション(30s)"):
     st.write('A simple video demo created by myself.')
     st.video(video_bytes01)
 st.markdown("""---""")
