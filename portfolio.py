@@ -64,26 +64,27 @@ with tab1:
 
      with col1:
          # 01
-
-         st.subheader("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈") 
-         annotated_text(('機械学習', 'カテゴリ', "#8ef"))
-         st.markdown('[リンク先](%s)' % url01)
-         with st.expander("デモンストレーション(30s)"):
-             st.write('A simple video demo created by myself.')
-             st.video(video_bytes01)
-         st.image(image01)
-         st.markdown("""---""")
+          with st.container():
+              st.subheader("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈") 
+              annotated_text(('機械学習', 'カテゴリ', "#8ef"))
+              st.markdown('[リンク先](%s)' % url01)
+              with st.expander("デモンストレーション(30s)"):
+                  st.write('A simple video demo created by myself.')
+                  st.video(video_bytes01)
+              st.image(image01)
+              st.markdown("""---""")
      
      with col2:
          # 02
-         st.subheader("各メディアのTOPニュース(URL含め)のまとめサイト")
-         annotated_text(('スクレイピング', 'カテゴリ', "#faa"))
-         st.markdown("[リンク先](%s)" % url02)
-         with st.expander("デモンストレーション(10s)"):
-             st.write('A simple video demo created by myself.')
-             st.video(video_bytes02)
-         st.image(image02)
-         st.markdown("""---""")
+          with st.container():         
+              st.subheader("各メディアのTOPニュース(URL含め)のまとめサイト")
+              annotated_text(('スクレイピング', 'カテゴリ', "#faa"))
+              st.markdown("[リンク先](%s)" % url02)
+              with st.expander("デモンストレーション(10s)"):
+                  st.write('A simple video demo created by myself.')
+                  st.video(video_bytes02)
+              st.image(image02)
+              st.markdown("""---""")
           
      col3, col4 = st.columns(2)
 
