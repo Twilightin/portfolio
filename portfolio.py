@@ -65,7 +65,7 @@ with tab1:
      with col1:
          # 01
 
-         st.header("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈") 
+         st.title("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈") 
          st.image(image01)
          annotated_text(('機械学習', 'カテゴリ', "#8ef"))
          st.markdown('[リンク先](%s)' % url01)
@@ -100,7 +100,7 @@ with tab1:
 
      with col4:    
          # 04
-         st.header("各国のコロナ新規感染者の推移を動的に表現")
+         st.subheader("各国のコロナ新規感染者の推移を動的に表現")
          st.image(image04, width = 350)
          annotated_text(('データ可視化', 'カテゴリ', '#afa'))
          st.markdown("[リンク先](%s)" % url04)
@@ -113,7 +113,7 @@ with tab1:
 
      with col5:
          # 05
-         st.header("国別のコロナ新規感染者/死亡者の推移と累計")
+         st.caption("国別のコロナ新規感染者/死亡者の推移と累計")
          st.image(image05, width = 350)    
          annotated_text(('データ可視化', 'カテゴリ', '#afa'))
          st.markdown("[リンク先](%s)" % url05)
