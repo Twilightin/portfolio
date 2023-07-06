@@ -72,7 +72,7 @@ with tab1:
          # 01
           with st.container():
               st.markdown("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈")
-              annotated_text(('機械学習', 'カテゴリ', "#1c80c4"))
+              annotated_text(('機械学習', 'カテゴリ', "#87ceeb"))
               st.markdown('[リンク先](%s)' % url01)
               with st.expander("デモンストレーション(30s)"):
                   st.write('A simple video demo created by myself.')
