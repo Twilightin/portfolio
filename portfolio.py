@@ -31,6 +31,12 @@ image05 = Image.open('port05.jpg')
 image06 = Image.open('port06.jpg')
 image07 = Image.open('port07.jpg')
 
+ai_img01 = Image.open('ai_img01.jpg')
+ai_img02 = Image.open('ai_img02.png')
+
+ai_mov01 = open('ai_mov01.mp4', 'rb')
+ai_mbytes01 = ai_mov01.read()
+
 video_file01 = open('app01.mp4', 'rb')
 video_bytes01 = video_file01.read()
 
@@ -66,7 +72,7 @@ with tab1:
          # 01
           with st.container():
               st.markdown("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈")
-              annotated_text(('機械学習', 'カテゴリ', "#8ef"))
+              annotated_text(('機械学習', 'カテゴリ', "#3450a4"))
               st.markdown('[リンク先](%s)' % url01)
               with st.expander("デモンストレーション(30s)"):
                   st.write('A simple video demo created by myself.')
@@ -90,7 +96,7 @@ with tab1:
      with col3:
          # 03
          st.markdown("GDPと平均寿命の相関を時系列で動的な可視化                      ")
-         annotated_text(('データ可視化', 'カテゴリ', '#afa'))
+         annotated_text(('データ可視化', 'カテゴリ', '#88acd8'))
          st.markdown("[リンク先](%s)" % url03)
          with st.expander("デモンストレーション(10s)"):
              st.write('A simple video demo created by myself.')
@@ -100,7 +106,7 @@ with tab1:
      with col4:    
          # 04
          st.markdown("各国のコロナ新規感染者の推移を動的な可視化                                 ")
-         annotated_text(('データ可視化', 'カテゴリ', '#afa'))
+         annotated_text(('データ可視化', 'カテゴリ', '#88acd8'))
          st.markdown("[リンク先](%s)" % url04)
          with st.expander("デモンストレーション(10s)"):
              st.write('A simple video demo created by myself.')
@@ -113,7 +119,7 @@ with tab1:
      with col5:
          # 05
          st.markdown("国別のコロナ新規感染者・死亡者の推移と累計                                   ")
-         annotated_text(('データ可視化', 'カテゴリ', '#afa'))
+         annotated_text(('データ可視化', 'カテゴリ', '#88acd8'))
          st.markdown("[リンク先](%s)" % url05)
          with st.expander("デモンストレーション(10s)"):
              st.write('A simple video demo created by myself.')
@@ -123,7 +129,7 @@ with tab1:
      with col6:         
         # 06
          st.markdown("特定国/地域データの抽出とダウンロードアプリ                            ")
-         annotated_text(('データ可視化', 'カテゴリ', '#afa'))
+         annotated_text(('データ可視化', 'カテゴリ', '#88acd8'))
          st.markdown("[リンク先](%s)" % url06)
          with st.expander("デモンストレーション(10s)"):
              st.write('A simple video demo created by myself.')
@@ -145,3 +151,25 @@ with tab1:
 
           
      st.markdown("""---""")
+
+with tab2:
+
+     with st.container():
+          st.markdown("村上隆スタイルの「神奈川沖浪裏 by Disco Diffusion」")
+          annotated_text(('スタイル変更', 'カテゴリ', "#1c80c4"))
+          st.image(ai_img01)
+     st.markdown("""---""")
+
+     with st.container():
+          st.markdown("人物の実写写真をアニメ化")
+          annotated_text(('画像生成', 'カテゴリ', "#3ca480"))
+          st.image(ai_img02)
+     st.markdown("""---""")
+
+     with st.container():
+          st.markdown("一枚人物写真からの動画生成")
+          annotated_text(('動画生成', 'カテゴリ', "#a43d94"))
+          st.image(ai_mov01)
+     st.markdown("""---""")
+
+
