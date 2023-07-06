@@ -5,9 +5,6 @@ from PIL import Image
 from annotated_text import annotated_text
 from streamlit_extras.colored_header import colored_header
 
-constrained_height = 100
-large_text_output = "".join([f"Line number {i}\n" for i in range(100)])
-
 def header(url):
      st.markdown(f'<p style="background-color:#0066cc;color:#33ff33;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
 
@@ -68,76 +65,71 @@ with tab1:
      with col1:
          # 01
           with st.container():
-              #st.subheader("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈") 
-              st.text_area(label="入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈", value=large_text_output, height=constrained_height)
+              st.caption("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈")
               annotated_text(('機械学習', 'カテゴリ', "#8ef"))
               st.markdown('[リンク先](%s)' % url01)
               with st.expander("デモンストレーション(30s)"):
                   st.write('A simple video demo created by myself.')
                   st.video(video_bytes01)
               st.image(image01)
-              st.markdown("""---""")
      
      with col2:
          # 02
           with st.container():         
-              #st.subheader("各メディアのTOPニュース(URL含め)のまとめサイト")
-              st.text_area(label="各メディアのTOPニュース(URL含め)のまとめサイト", value=large_text_output, height=constrained_height)
+              st.subheader("各メディアのTOPニュース(URL含め)のまとめサイト                  ")
               annotated_text(('スクレイピング', 'カテゴリ', "#faa"))
               st.markdown("[リンク先](%s)" % url02)
               with st.expander("デモンストレーション(10s)"):
                   st.write('A simple video demo created by myself.')
                   st.video(video_bytes02)
               st.image(image02)
-              st.markdown("""---""")
+     st.markdown("""---""")
           
      col3, col4 = st.columns(2)
 
      with col3:
          # 03
-         st.subheader("各国GDPと平均寿命の相関を時系列で動的に表現")
+         st.subheader("各国GDPと平均寿命の相関を時系列で動的に表現                       ")
          annotated_text(('データ可視化', 'カテゴリ', '#afa'))
          st.markdown("[リンク先](%s)" % url03)
          with st.expander("デモンストレーション(10s)"):
              st.write('A simple video demo created by myself.')
              st.video(video_bytes03)
          st.image(image03)
-         st.markdown("""---""")
 
      with col4:    
          # 04
-         st.subheader("各国のコロナ新規感染者の推移を動的に表現")
+         st.subheader("各国のコロナ新規感染者の推移を動的に表現                          ")
          annotated_text(('データ可視化', 'カテゴリ', '#afa'))
          st.markdown("[リンク先](%s)" % url04)
          with st.expander("デモンストレーション(10s)"):
              st.write('A simple video demo created by myself.')
              st.video(video_bytes04)
          st.image(image04)
-         st.markdown("""---""")
+     st.markdown("""---""")
      
      col5, col6 = st.columns(2)
 
      with col5:
          # 05
-         st.subheader("国別のコロナ新規感染者/死亡者の推移と累計")
+         st.subheader("国別のコロナ新規感染者/死亡者の推移と累計                         ")
          annotated_text(('データ可視化', 'カテゴリ', '#afa'))
          st.markdown("[リンク先](%s)" % url05)
          with st.expander("デモンストレーション(10s)"):
              st.write('A simple video demo created by myself.')
              st.video(video_bytes05)
          st.image(image05)
-         st.markdown("""---""")
 
      with col6:         
         # 06
-         st.subheader("特定国/地域のコロナ新規感染者のデータダウンロードアプリ")
+         st.subheader("特定国/地域のコロナ新規感染者のデータダウンロードアプリ                ")
          annotated_text(('データ可視化', 'カテゴリ', '#afa'))
          st.markdown("[リンク先](%s)" % url06)
          with st.expander("デモンストレーション(10s)"):
              st.write('A simple video demo created by myself.')
              st.video(video_bytes06)
          st.image(image06)
-         st.markdown("""---""")
+     st.markdown("""---""")
      
      col7, col8 = st.columns(2)
 
@@ -150,4 +142,7 @@ with tab1:
              st.write('A simple video demo created by myself.')
              st.video(video_bytes07)
          st.image(image07)
-         st.markdown("""---""")
+
+     with col8:
+          
+     st.markdown("""---""")
