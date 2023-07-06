@@ -42,6 +42,22 @@ ai_img05 = Image.open('ai_img05.png')
 ai_img06_1 = Image.open('ai_img06_1.jpg')
 ai_img06_2 = Image.open('ai_img06_2.png')
 
+c1 = Image.open('c1-1.png')
+c2 = Image.open('c2-1.png')
+c3 = Image.open('c3-1.png')
+c4 = Image.open('c4-1.png')
+c5 = Image.open('c5-1.png')
+c6 = Image.open('c6-1.png')
+c7 = Image.open('c7-1.png')
+c8 = Image.open('c8-1.png')
+c9 = Image.open('c9-1.png')
+c10 = Image.open('c10-1.png')
+c11 = Image.open('c11-1.png')
+c12 = Image.open('c13-1.png')
+
+kaggle0 = Image.open('kaggle0.png')
+kaggle1 = Image.open('kaggle1.png')
+
 ai_mov01 = open('ai_mov01.mp4', 'rb')
 ai_mbytes01 = ai_mov01.read()
 
@@ -66,7 +82,7 @@ video_bytes06 = video_file06.read()
 video_file07 = open('app07.mp4', 'rb')
 video_bytes07 = video_file07.read()
 
-tab1, tab2 = st.tabs(["Data Science", "AI Generated Content（AIGC）"])
+tab1, tab2, tab3 = st.tabs(["Data Science", "AI Generated Content（AIGC）", "Accomplishments"])
 
 with tab1:
           
@@ -227,3 +243,50 @@ with tab2:
           with col2:
                st.image(ai_img06_2, caption='after')
      st.markdown("""---""")
+
+with tab3:
+     
+     with st.container():
+     st.markdown("Kaggleで最上位2%にランクイン")             
+     col1, col2 = st.columns(2)
+          with col1:
+               st.image(kaggle0)
+          with col2:
+               st.image(kaggle1)
+     st.markdown("""---""")
+
+     with st.container():
+     st.markdown("Courseraでデータサイエンス専門講座を複数修了")    
+     st.caption('Specialization (専門講座) とは複数コースのセットである')
+     col1, col2, col3 = st.columns(3)
+          with col1:
+               st.image(c1)
+          with col2:
+               st.image(c2)
+          with col3:
+               st.image(c3)               
+     col4, col5, col6 = st.columns(3)
+          with col4:
+               st.image(c4)
+          with col5:
+               st.image(c5)
+          with col6:
+               st.image(c6)
+     col7, col8, col9 = st.columns(3)
+          with col7:
+               st.image(c7)
+          with col8:
+               st.image(c8)
+          with col9:
+               st.image(c9)
+     col10, col11, col12 = st.columns(3)
+          with col10:
+               st.image(c10)
+          with col11:
+               st.image(c11)
+          with col12:
+               st.image(c12)
+
+
+
+     
