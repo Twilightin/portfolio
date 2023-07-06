@@ -32,7 +32,8 @@ image06 = Image.open('port06.jpg')
 image07 = Image.open('port07.jpg')
 
 ai_img01 = Image.open('ai_img01.png')
-ai_img02 = Image.open('ai_img02.png')
+ai_img02_1 = Image.open('ai_img02_1.png')
+ai_img02_2 = Image.open('ai_img02_2.png')
 
 ai_mov01 = open('ai_mov01.mp4', 'rb')
 ai_mbytes01 = ai_mov01.read()
@@ -162,10 +163,16 @@ with tab2:
      st.markdown("""---""")
 
      with st.container():
-          st.markdown("人物の実写写真をアニメ化")
-          st.caption('着物少女をアニメキャラにしたらどうなるかの疑問から始まった')         
-          annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
-          st.image(ai_img02)
+          col1, col2 = st.columns(2)
+               st.markdown("人物の実写写真をアニメ化")
+               st.caption('着物少女をアニメキャラにしたらどうなるかの疑問から始まった')         
+               annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
+               with col1:
+                    st.image(ai_img02_1, caption='before')
+
+               with col2:
+                    st.image(ai_img02_2, caption='after')
+                    
      st.markdown("""---""")
 
      with st.container():
