@@ -76,7 +76,7 @@ with tab1:
      with col2:
          # 02
           with st.container():         
-              st.text("各メディアのTOPニュース(URL含め)のまとめサイト                  ")
+              st.markdown("各メディアのTOPニュース(URL含め)のまとめサイト                  ")
               annotated_text(('スクレイピング', 'カテゴリ', "#faa"))
               st.markdown("[リンク先](%s)" % url02)
               with st.expander("デモンストレーション(10s)"):
@@ -89,7 +89,7 @@ with tab1:
 
      with col3:
          # 03
-         st.text("各国GDPと平均寿命の相関を時系列で動的に表現                       ")
+         st.markdown("各国GDPと平均寿命の相関を時系列で動的に表現                       ")
          annotated_text(('データ可視化', 'カテゴリ', '#afa'))
          st.markdown("[リンク先](%s)" % url03)
          with st.expander("デモンストレーション(10s)"):
@@ -99,7 +99,7 @@ with tab1:
 
      with col4:    
          # 04
-         st.text("各国のコロナ新規感染者の推移を動的に表現                          ")
+         st.markdown("各国のコロナ新規感染者の推移を動的に表現                          ")
          annotated_text(('データ可視化', 'カテゴリ', '#afa'))
          st.markdown("[リンク先](%s)" % url04)
          with st.expander("デモンストレーション(10s)"):
@@ -112,7 +112,7 @@ with tab1:
 
      with col5:
          # 05
-         st.text("国別のコロナ新規感染者/死亡者の推移と累計                         ")
+         st.markdown("国別のコロナ新規感染者/死亡者の推移と累計                         ")
          annotated_text(('データ可視化', 'カテゴリ', '#afa'))
          st.markdown("[リンク先](%s)" % url05)
          with st.expander("デモンストレーション(10s)"):
@@ -122,7 +122,7 @@ with tab1:
 
      with col6:         
         # 06
-         st.text("特定国/地域のコロナ新規感染者のデータダウンロードアプリ                 ")
+         st.markdown("特定国/地域のコロナ新規感染者のデータダウンロードアプリ                 ")
          annotated_text(('データ可視化', 'カテゴリ', '#afa'))
          st.markdown("[リンク先](%s)" % url06)
          with st.expander("デモンストレーション(10s)"):
@@ -135,7 +135,7 @@ with tab1:
 
      with col7:
          # 07
-         st.text("ChatGPT(GPT3.5)より自分用の高度なChatGPT(text-davinci-003のAPI利用)構築")
+         st.markdown("ChatGPT(GPT3.5)より自分用の高度なChatGPT(text-davinci-003のAPI利用)構築")
          annotated_text(('API活用', 'カテゴリ', "#fea"))
          st.markdown("[リンク先](%s)" % url07)
          with st.expander("デモンストレーション(10s)"):
