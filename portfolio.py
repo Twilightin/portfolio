@@ -72,7 +72,7 @@ with tab1:
          # 01
           with st.container():
               st.markdown("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈")
-              annotated_text(('機械学習', 'カテゴリ', "#3450a4"))
+              annotated_text(('機械学習', 'カテゴリ', "#1c80c4"))
               st.markdown('[リンク先](%s)' % url01)
               with st.expander("デモンストレーション(30s)"):
                   st.write('A simple video demo created by myself.')
@@ -156,20 +156,20 @@ with tab2:
 
      with st.container():
           st.markdown("村上隆スタイルの「神奈川沖浪裏 by Disco Diffusion」")
-          annotated_text(('スタイル変更', 'カテゴリ', "#1c80c4"))
+          annotated_text(('スタイル変更', 'カテゴリ', "#a8d0ec"))
           st.image(ai_img01)
      st.markdown("""---""")
 
      with st.container():
           st.markdown("人物の実写写真をアニメ化")
-          annotated_text(('画像生成', 'カテゴリ', "#3ca480"))
+          annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
           st.image(ai_img02)
      st.markdown("""---""")
 
      with st.container():
           st.markdown("一枚人物写真からの動画生成")
-          annotated_text(('動画生成', 'カテゴリ', "#a43d94"))
-          st.image(ai_mov01)
+          annotated_text(('動画生成', 'カテゴリ', "#c9cd9d"))
+          st.video(ai_mov01)
      st.markdown("""---""")
 
 
