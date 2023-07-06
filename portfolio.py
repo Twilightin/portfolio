@@ -183,7 +183,7 @@ with tab2:
 
      with st.container():
           st.markdown("一枚人物写真からの動画生成[音声あり]")
-          st.caption('Stable Diffusinoの動画生成')            
+          st.caption('Stable Diffusinoの動画生成(動画編集 by Adobe Premier Pro)')            
           annotated_text(('動画生成', 'カテゴリ', "#ebd689"))
           st.video(ai_mov01)
      st.markdown("""---""")
