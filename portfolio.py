@@ -44,7 +44,7 @@ ai_img06_2 = Image.open('ai_img06_2.png')
 
 c1 = Image.open('c1-1.png')
 c2 = Image.open('c2-1.png')
-c3 = Image.open('c3-1.png')
+c3 = Image.open('c12-1.png')
 c4 = Image.open('c4-1.png')
 c5 = Image.open('c5-1.png')
 c6 = Image.open('c6-1.png')
