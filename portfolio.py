@@ -76,7 +76,7 @@ with tab1:
      with col2:
          # 02
           with st.container():         
-              st.subheader("各メディアのTOPニュース(URL含め)のまとめサイト                  ")
+              st.text("各メディアのTOPニュース(URL含め)のまとめサイト                  ")
               annotated_text(('スクレイピング', 'カテゴリ', "#faa"))
               st.markdown("[リンク先](%s)" % url02)
               with st.expander("デモンストレーション(10s)"):
