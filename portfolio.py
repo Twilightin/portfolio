@@ -171,7 +171,7 @@ with tab2:
      with st.container():
           st.markdown("一枚人物写真からの動画生成")
           st.caption('Stable Diffusinoの動画生成を試してみた')            
-          annotated_text(('動画生成', 'カテゴリ', "#c9cd9d"))
+          annotated_text(('動画生成', 'カテゴリ', "#ebd689"))
           st.video(ai_mov01)
      st.markdown("""---""")
 
