@@ -5,6 +5,9 @@ from PIL import Image
 from annotated_text import annotated_text
 from streamlit_extras.colored_header import colored_header
 
+constrained_height = 100
+large_text_output = "".join([f"Line number {i}\n" for i in range(100)])
+
 def header(url):
      st.markdown(f'<p style="background-color:#0066cc;color:#33ff33;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
 
@@ -65,7 +68,8 @@ with tab1:
      with col1:
          # 01
           with st.container():
-              st.subheader("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈") 
+              #st.subheader("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈") 
+               st.text_area(label="入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈", value=large_text_output, height=constrained_height)
               annotated_text(('機械学習', 'カテゴリ', "#8ef"))
               st.markdown('[リンク先](%s)' % url01)
               with st.expander("デモンストレーション(30s)"):
@@ -77,7 +81,8 @@ with tab1:
      with col2:
          # 02
           with st.container():         
-              st.subheader("各メディアのTOPニュース(URL含め)のまとめサイト")
+              #st.subheader("各メディアのTOPニュース(URL含め)のまとめサイト")
+               st.text_area(label="各メディアのTOPニュース(URL含め)のまとめサイト", value=large_text_output, height=constrained_height)
               annotated_text(('スクレイピング', 'カテゴリ', "#faa"))
               st.markdown("[リンク先](%s)" % url02)
               with st.expander("デモンストレーション(10s)"):
