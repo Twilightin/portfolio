@@ -69,7 +69,7 @@ with tab1:
          # 01
           with st.container():
               #st.subheader("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈") 
-               st.text_area(label="入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈", value=large_text_output, height=constrained_height)
+              st.text_area(label="入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈", value=large_text_output, height=constrained_height)
               annotated_text(('機械学習', 'カテゴリ', "#8ef"))
               st.markdown('[リンク先](%s)' % url01)
               with st.expander("デモンストレーション(30s)"):
@@ -82,7 +82,7 @@ with tab1:
          # 02
           with st.container():         
               #st.subheader("各メディアのTOPニュース(URL含め)のまとめサイト")
-               st.text_area(label="各メディアのTOPニュース(URL含め)のまとめサイト", value=large_text_output, height=constrained_height)
+              st.text_area(label="各メディアのTOPニュース(URL含め)のまとめサイト", value=large_text_output, height=constrained_height)
               annotated_text(('スクレイピング', 'カテゴリ', "#faa"))
               st.markdown("[リンク先](%s)" % url02)
               with st.expander("デモンストレーション(10s)"):
