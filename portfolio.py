@@ -165,7 +165,7 @@ with tab2:
      with st.container():
           st.markdown("村上隆スタイルの「神奈川沖浪裏 by Disco Diffusion(2022/06)」")
           st.caption('一番好きな作品を好きなアーティストのスタイルでアレンジしてみた作品')
-          annotated_text(('スタイル変更', 'カテゴリ', "#a8d0ec"))
+          annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
           st.image(ai_img01)
      st.markdown("""---""")
 
