@@ -163,15 +163,14 @@ with tab2:
      st.markdown("""---""")
 
      with st.container():
-          col1, col2 = st.columns(2)
           st.markdown("人物の実写写真をアニメ化")
           st.caption('着物少女をアニメキャラにしたらどうなるかの疑問から始まった')         
           annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
-               with col1:
-                    st.image(ai_img02_1, caption='before')
-
-               with col2:
-                    st.image(ai_img02_2, caption='after')
+          col1, col2 = st.columns(2)
+          with col1:
+               st.image(ai_img02_1, caption='before')
+          with col2:
+               st.image(ai_img02_2, caption='after')
                     
      st.markdown("""---""")
 
