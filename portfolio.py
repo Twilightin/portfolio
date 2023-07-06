@@ -247,12 +247,8 @@ with tab2:
 with tab3:
      
      with st.container():
-          st.markdown("Kaggleで最上位2%にランクイン")             
-          col1, col2 = st.columns(2)
-          with col1:
-               st.image(kaggle0)
-          with col2:
-               st.image(kaggle1)
+          st.markdown("Kaggleで最上位2%にランクイン")
+          st.image(kaggle0)
      st.markdown("""---""")
 
      with st.container():
