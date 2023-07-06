@@ -155,19 +155,22 @@ with tab1:
 with tab2:
 
      with st.container():
-          st.markdown("村上隆スタイルの「神奈川沖浪裏 by Disco Diffusion」")
+          st.markdown("村上隆スタイルの「神奈川沖浪裏 by Disco Diffusion(2022/06)」")
+          st.caption('一番好きな作品を好きなアーティストのスタイルでアレンジしてみた')
           annotated_text(('スタイル変更', 'カテゴリ', "#a8d0ec"))
           st.image(ai_img01)
      st.markdown("""---""")
 
      with st.container():
           st.markdown("人物の実写写真をアニメ化")
+          st.caption('着物少女をアニメキャラにしたらどうなるかの疑問から始まった')         
           annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
           st.image(ai_img02)
      st.markdown("""---""")
 
      with st.container():
           st.markdown("一枚人物写真からの動画生成")
+          st.caption('Stable Diffusinoの動画生成を試してみた')            
           annotated_text(('動画生成', 'カテゴリ', "#c9cd9d"))
           st.video(ai_mov01)
      st.markdown("""---""")
