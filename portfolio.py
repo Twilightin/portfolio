@@ -143,6 +143,5 @@ with tab1:
              st.video(video_bytes07)
          st.image(image07)
 
-     with col8:
           
      st.markdown("""---""")
