@@ -34,6 +34,13 @@ image07 = Image.open('port07.jpg')
 ai_img01 = Image.open('ai_img01.png')
 ai_img02_1 = Image.open('ai_img02_1.png')
 ai_img02_2 = Image.open('ai_img02_2.png')
+ai_img03_1 = Image.open('ai_img03_1.png')
+ai_img03_2 = Image.open('ai_img03_2.png')
+ai_img04_1 = Image.open('ai_img04_1.png')
+ai_img04_2 = Image.open('ai_img04_2.png')
+ai_img05 = Image.open('ai_img05.png')
+ai_img06_1 = Image.open('ai_img06_1.jpg')
+ai_img06_2 = Image.open('ai_img06_2.png')
 
 ai_mov01 = open('ai_mov01.mp4', 'rb')
 ai_mbytes01 = ai_mov01.read()
@@ -157,14 +164,14 @@ with tab2:
 
      with st.container():
           st.markdown("村上隆スタイルの「神奈川沖浪裏 by Disco Diffusion(2022/06)」")
-          st.caption('一番好きな作品を好きなアーティストのスタイルでアレンジしてみた')
+          st.caption('一番好きな作品を好きなアーティストのスタイルでアレンジしてみた作品')
           annotated_text(('スタイル変更', 'カテゴリ', "#a8d0ec"))
           st.image(ai_img01)
      st.markdown("""---""")
 
      with st.container():
           st.markdown("人物の実写写真をアニメ化")
-          st.caption('着物少女をアニメキャラにしたらどうなるかの疑問から始まった')         
+          st.caption('着物少女をアニメキャラにした')         
           annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
           col1, col2 = st.columns(2)
           with col1:
@@ -176,9 +183,43 @@ with tab2:
 
      with st.container():
           st.markdown("一枚人物写真からの動画生成[音声あり]")
-          st.caption('Stable Diffusinoの動画生成を試してみた')            
+          st.caption('Stable Diffusinoの動画生成')            
           annotated_text(('動画生成', 'カテゴリ', "#ebd689"))
           st.video(ai_mov01)
      st.markdown("""---""")
 
+     with st.container():
+          st.markdown("ベートーベンを若くにしてみた")      
+          st.caption('画像細部修正')             
+          annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
+          col1, col2 = st.columns(2)
+          with col1:
+               st.image(ai_img03_1, caption='before')
+          with col2:
+               st.image(ai_img03_2, caption='after')
+               
+     with st.container():
+          st.markdown("「真珠の耳飾りの少女」中の少女の髪型を変えてみた")    
+          annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
+          col1, col2 = st.columns(2)
+          with col1:
+               st.image(ai_img04_1, caption='before')
+          with col2:
+               st.image(ai_img04_2, caption='after')
 
+     with st.container():
+          st.markdown("Civitaiサイトのモデルを使いスマホの壁紙を作ってみた")
+          st.caption('AI絵画モデルのダウンロードと使用')    
+          annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
+          col1, col2 = st.columns(2)
+          st.image(ai_img05, caption='Prompt: (masterpiece, best quality), 1lady, solo, artstation, dynamic, charming, magical, unreal engine, fantastically beautiful, illustration, dramatic lighting, rave background, neon glow, maximalist,')
+
+     with st.container():
+          st.markdown("ControlNetを使い人物のポーズを設定")
+          st.caption('人物動作コントロール機能の検証')          
+          annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
+          col1, col2 = st.columns(2)
+          with col1:
+               st.image(ai_img06_1, caption='before')
+          with col2:
+               st.image(ai_img06_2, caption='after')
