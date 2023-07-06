@@ -197,7 +197,8 @@ with tab2:
                st.image(ai_img03_1, caption='before')
           with col2:
                st.image(ai_img03_2, caption='after')
-               
+     st.markdown("""---""")
+     
      with st.container():
           st.markdown("「真珠の耳飾りの少女」中の少女の髪型を変えてみた")    
           annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
@@ -206,6 +207,7 @@ with tab2:
                st.image(ai_img04_1, caption='before')
           with col2:
                st.image(ai_img04_2, caption='after')
+     st.markdown("""---""")
 
      with st.container():
           st.markdown("Civitaiサイトのモデルを使いスマホの壁紙を作ってみた")
@@ -213,7 +215,8 @@ with tab2:
           annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
           col1, col2 = st.columns(2)
           st.image(ai_img05, caption='Prompt: (masterpiece, best quality), 1lady, solo, artstation, dynamic, charming, magical, unreal engine, fantastically beautiful, illustration, dramatic lighting, rave background, neon glow, maximalist,')
-
+     st.markdown("""---""")
+     
      with st.container():
           st.markdown("ControlNetを使い人物のポーズを設定")
           st.caption('人物動作コントロール機能の検証')          
@@ -223,3 +226,4 @@ with tab2:
                st.image(ai_img06_1, caption='before')
           with col2:
                st.image(ai_img06_2, caption='after')
+     st.markdown("""---""")
