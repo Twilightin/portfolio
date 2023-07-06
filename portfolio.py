@@ -31,7 +31,7 @@ image05 = Image.open('port05.jpg')
 image06 = Image.open('port06.jpg')
 image07 = Image.open('port07.jpg')
 
-ai_img01 = Image.open('ai_img01.jpg')
+ai_img01 = Image.open('ai_img01.png')
 ai_img02 = Image.open('ai_img02.png')
 
 ai_mov01 = open('ai_mov01.mp4', 'rb')
