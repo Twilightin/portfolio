@@ -247,46 +247,43 @@ with tab2:
 with tab3:
      
      with st.container():
-     st.markdown("Kaggleで最上位2%にランクイン")             
-     col1, col2 = st.columns(2)
-          with col1:
-               st.image(kaggle0)
-          with col2:
-               st.image(kaggle1)
+          st.markdown("Kaggleで最上位2%にランクイン")             
+          col1, col2 = st.columns(2)
+               with col1:
+                    st.image(kaggle0)
+               with col2:
+                    st.image(kaggle1)
      st.markdown("""---""")
 
      with st.container():
-     st.markdown("Courseraでデータサイエンス専門講座を複数修了")    
-     st.caption('Specialization (専門講座) とは複数コースのセットである')
-     col1, col2, col3 = st.columns(3)
-          with col1:
-               st.image(c1)
-          with col2:
-               st.image(c2)
-          with col3:
-               st.image(c3)               
-     col4, col5, col6 = st.columns(3)
-          with col4:
-               st.image(c4)
-          with col5:
-               st.image(c5)
-          with col6:
-               st.image(c6)
-     col7, col8, col9 = st.columns(3)
-          with col7:
-               st.image(c7)
-          with col8:
-               st.image(c8)
-          with col9:
-               st.image(c9)
-     col10, col11, col12 = st.columns(3)
-          with col10:
-               st.image(c10)
-          with col11:
-               st.image(c11)
-          with col12:
-               st.image(c12)
-
-
-
-     
+          st.markdown("Courseraでデータサイエンス専門講座を複数修了")    
+          st.caption('Specialization (専門講座) とは複数コースのセットである')
+          col1, col2, col3 = st.columns(3)
+               with col1:
+                    st.image(c1)
+               with col2:
+                    st.image(c2)
+               with col3:
+                    st.image(c3)               
+          col4, col5, col6 = st.columns(3)
+               with col4:
+                    st.image(c4)
+               with col5:
+                    st.image(c5)
+               with col6:
+                    st.image(c6)
+          col7, col8, col9 = st.columns(3)
+               with col7:
+                    st.image(c7)
+               with col8:
+                    st.image(c8)
+               with col9:
+                    st.image(c9)
+          col10, col11, col12 = st.columns(3)
+               with col10:
+                    st.image(c10)
+               with col11:
+                    st.image(c11)
+               with col12:
+                    st.image(c12)
+     st.markdown("""---""")
