@@ -65,83 +65,83 @@ with tab1:
      with col1:
          # 01
 
-         st.title("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈") 
-         st.image(image01)
+         st.subheader("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈") 
          annotated_text(('機械学習', 'カテゴリ', "#8ef"))
          st.markdown('[リンク先](%s)' % url01)
          with st.expander("デモンストレーション(30s)"):
              st.write('A simple video demo created by myself.')
              st.video(video_bytes01)
+         st.image(image01)
          st.markdown("""---""")
      
      with col2:
          # 02
-         st.header("各メディアのTOPニュース(URL含め)のまとめサイト")
-         st.image(image02, width = 350)
+         st.subheader("各メディアのTOPニュース(URL含め)のまとめサイト")
          annotated_text(('スクレイピング', 'カテゴリ', "#faa"))
          st.markdown("[リンク先](%s)" % url02)
          with st.expander("デモンストレーション(10s)"):
              st.write('A simple video demo created by myself.')
              st.video(video_bytes02)
+         st.image(image02)
          st.markdown("""---""")
-     
+          
      col3, col4 = st.columns(2)
 
      with col3:
          # 03
-         st.header("各国GDPと平均寿命の相関を時系列で動的に表現")
-         st.image(image03, width = 350)     
+         st.subheader("各国GDPと平均寿命の相関を時系列で動的に表現")
          annotated_text(('データ可視化', 'カテゴリ', '#afa'))
          st.markdown("[リンク先](%s)" % url03)
          with st.expander("デモンストレーション(10s)"):
              st.write('A simple video demo created by myself.')
              st.video(video_bytes03)
+         st.image(image03)
          st.markdown("""---""")
 
      with col4:    
          # 04
          st.subheader("各国のコロナ新規感染者の推移を動的に表現")
-         st.image(image04, width = 350)
          annotated_text(('データ可視化', 'カテゴリ', '#afa'))
          st.markdown("[リンク先](%s)" % url04)
          with st.expander("デモンストレーション(10s)"):
              st.write('A simple video demo created by myself.')
              st.video(video_bytes04)
+         st.image(image04)
          st.markdown("""---""")
      
      col5, col6 = st.columns(2)
 
      with col5:
          # 05
-         st.caption("国別のコロナ新規感染者/死亡者の推移と累計")
-         st.image(image05, width = 350)    
+         st.subheader("国別のコロナ新規感染者/死亡者の推移と累計")
          annotated_text(('データ可視化', 'カテゴリ', '#afa'))
          st.markdown("[リンク先](%s)" % url05)
          with st.expander("デモンストレーション(10s)"):
              st.write('A simple video demo created by myself.')
              st.video(video_bytes05)
+         st.image(image05)
          st.markdown("""---""")
 
      with col6:         
         # 06
-         st.header("特定国/地域のコロナ新規感染者のデータダウンロードアプリ")
-         st.image(image06, width = 350)
+         st.subheader("特定国/地域のコロナ新規感染者のデータダウンロードアプリ")
          annotated_text(('データ可視化', 'カテゴリ', '#afa'))
          st.markdown("[リンク先](%s)" % url06)
          with st.expander("デモンストレーション(10s)"):
              st.write('A simple video demo created by myself.')
              st.video(video_bytes06)
+         st.image(image06)
          st.markdown("""---""")
      
      col7, col8 = st.columns(2)
 
      with col7:
          # 07
-         st.header("ChatGPT(GPT3.5)より自分用の高度なChatGPT(text-davinci-003のAPI利用)構築")
-         st.image(image07, width = 350)
+         st.subheader("ChatGPT(GPT3.5)より自分用の高度なChatGPT(text-davinci-003のAPI利用)構築")
          annotated_text(('API活用', 'カテゴリ', "#fea"))
          st.markdown("[リンク先](%s)" % url07)
          with st.expander("デモンストレーション(10s)"):
              st.write('A simple video demo created by myself.')
              st.video(video_bytes07)
+         st.image(image07)
          st.markdown("""---""")
