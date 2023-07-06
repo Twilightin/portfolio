@@ -89,7 +89,7 @@ with tab1:
 
      with col3:
          # 03
-         st.markdown("各国GDPと平均寿命の相関を時系列で動的な可視化                      ")
+         st.markdown("GDPと平均寿命の相関を時系列で動的な可視化                      ")
          annotated_text(('データ可視化', 'カテゴリ', '#afa'))
          st.markdown("[リンク先](%s)" % url03)
          with st.expander("デモンストレーション(10s)"):
