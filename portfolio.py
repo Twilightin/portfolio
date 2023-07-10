@@ -95,7 +95,7 @@ with tab1:
      with col1:
          # 01
           with st.container():
-              st.markdown("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈")
+              st.subheader("入力データに応じてモデル(Xgboost)予測の結果とSHAPによるモデルの解釈")
               annotated_text(('機械学習', 'カテゴリ', "#87ceeb"))
               st.markdown('[リンク先](%s)' % url01)
               with st.expander("デモンストレーション(30s)"):
@@ -179,7 +179,7 @@ with tab1:
 with tab2:
 
      with st.container():
-          st.markdown("村上隆スタイルの「神奈川沖浪裏 by Disco Diffusion(2022/06)」")
+          st.subheader("村上隆スタイルの「神奈川沖浪裏 by Disco Diffusion(2022/06)」")
           st.caption('一番好きな作品を好きなアーティストのスタイルでアレンジしてみた作品')
           annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
           st.image(ai_img01)
