@@ -106,7 +106,7 @@ with tab1:
      with col2:
          # 02
           with st.container():         
-              st.markdown("各メディアのTOPニュース(URL含め)のまとめサイト                  ")
+              st.subheader("各メディアのTOPニュース(URL含め)のまとめサイト                  ")
               annotated_text(('スクレイピング', 'カテゴリ', "#faa"))
               st.markdown("[リンク先](%s)" % url02)
               with st.expander("デモンストレーション(10s)"):
@@ -119,7 +119,7 @@ with tab1:
 
      with col3:
          # 03
-         st.markdown("GDPと平均寿命の相関を時系列で動的な可視化                      ")
+         st.subheader("GDPと平均寿命の相関を時系列で動的な可視化                      ")
          annotated_text(('データ可視化', 'カテゴリ', '#88acd8'))
          st.markdown("[リンク先](%s)" % url03)
          with st.expander("デモンストレーション(10s)"):
@@ -129,7 +129,7 @@ with tab1:
 
      with col4:    
          # 04
-         st.markdown("各国のコロナ新規感染者の推移を動的な可視化                                 ")
+         st.subheader("各国のコロナ新規感染者の推移を動的な可視化                                 ")
          annotated_text(('データ可視化', 'カテゴリ', '#88acd8'))
          st.markdown("[リンク先](%s)" % url04)
          with st.expander("デモンストレーション(10s)"):
@@ -142,7 +142,7 @@ with tab1:
 
      with col5:
          # 05
-         st.markdown("国別のコロナ新規感染者・死亡者の推移と累計                                   ")
+         st.subheader("国別のコロナ新規感染者・死亡者の推移と累計                                   ")
          annotated_text(('データ可視化', 'カテゴリ', '#88acd8'))
          st.markdown("[リンク先](%s)" % url05)
          with st.expander("デモンストレーション(10s)"):
@@ -152,7 +152,7 @@ with tab1:
 
      with col6:         
         # 06
-         st.markdown("特定国/地域データの抽出とダウンロードアプリ                            ")
+         st.subheader("特定国/地域データの抽出とダウンロードアプリ                            ")
          annotated_text(('データ可視化', 'カテゴリ', '#88acd8'))
          st.markdown("[リンク先](%s)" % url06)
          with st.expander("デモンストレーション(10s)"):
@@ -165,7 +165,7 @@ with tab1:
 
      with col7:
          # 07
-         st.markdown("ChatGPT(GPT3.5)より自分用の高度なChatGPT(text-davinci-003のAPI利用)構築")
+         st.subheader("ChatGPT(GPT3.5)より自分用の高度なChatGPT(text-davinci-003のAPI利用)構築")
          annotated_text(('API活用', 'カテゴリ', "#fea"))
          st.markdown("[リンク先](%s)" % url07)
          with st.expander("デモンストレーション(10s)"):
@@ -186,7 +186,7 @@ with tab2:
      st.markdown("""---""")
 
      with st.container():
-          st.markdown("人物の実写写真をアニメ化")
+          st.subheader("人物の実写写真をアニメ化")
           st.caption('着物少女をアニメキャラにした')         
           annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
           col1, col2 = st.columns(2)
@@ -198,14 +198,14 @@ with tab2:
      st.markdown("""---""")
 
      with st.container():
-          st.markdown("一枚人物写真からの動画生成[音声あり]")
+          st.subheader("一枚人物写真からの動画生成[音声あり]")
           st.caption('Stable Diffusinoの動画生成(動画編集 by Adobe Premier Pro)')            
           annotated_text(('動画生成', 'カテゴリ', "#ebd689"))
           st.video(ai_mov01)
      st.markdown("""---""")
 
      with st.container():
-          st.markdown("ベートーベンを若くにしてみた")      
+          st.subheader("ベートーベンを若くにしてみた")      
           st.caption('画像細部修正')             
           annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
           col1, col2 = st.columns(2)
@@ -216,7 +216,7 @@ with tab2:
      st.markdown("""---""")
      
      with st.container():
-          st.markdown("「真珠の耳飾りの少女」中の少女の髪型を変えてみた")    
+          st.subheader("「真珠の耳飾りの少女」中の少女の髪型を変えてみた")    
           annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
           col1, col2 = st.columns(2)
           with col1:
@@ -226,7 +226,7 @@ with tab2:
      st.markdown("""---""")
 
      with st.container():
-          st.markdown("Civitaiサイトのモデルを使いスマホの壁紙を作ってみた")
+          st.subheader("Civitaiサイトのモデルを使いスマホの壁紙を作ってみた")
           st.caption('AI絵画モデルのダウンロードと使用')    
           annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
           col1, col2 = st.columns(2)
@@ -234,7 +234,7 @@ with tab2:
      st.markdown("""---""")
      
      with st.container():
-          st.markdown("ControlNetを使い人物のポーズを設定")
+          st.subheader("ControlNetを使い人物のポーズを設定")
           st.caption('人物動作コントロール機能の検証')          
           annotated_text(('画像生成', 'カテゴリ', "#a09ccc"))
           col1, col2 = st.columns(2)
@@ -247,12 +247,12 @@ with tab2:
 with tab3:
      
      with st.container():
-          st.markdown("Kaggleで最上位2%にランクイン")
+          st.subheader("Kaggleで最上位2%にランクイン")
           st.image(kaggle0)
      st.markdown("""---""")
 
      with st.container():
-          st.markdown("Courseraでデータサイエンス専門講座を複数修了")    
+          st.subheader("Courseraでデータサイエンス専門講座を複数修了")    
           st.caption('Specialization (専門講座) とは複数コースのセットである')
           col1, col2, col3 = st.columns(3)
           with col1:
