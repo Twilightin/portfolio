@@ -106,7 +106,7 @@ with tab1:
      with col2:
          # 02
           with st.container():         
-              st.subheader("Webスクレイピングに基づく各メディアのTOPニュース(遷移可能)")
+              st.subheader("Webスクレイピングに基づく各メディアのTOPニュース(URL遷移可能)")
               annotated_text(('スクレイピング', 'カテゴリ', "#faa"))
               st.markdown("[リンク先](%s)" % url02)
               with st.expander("デモンストレーション(10s)"):
