@@ -259,8 +259,8 @@ with tab3:
 
      with st.container():
           st.subheader("Pythonプログラミング資格")
-          st.image(python01)
-          st.image(python02)
+          # st.image(python01)
+          # st.image(python02)
           st.image(python03)
      st.markdown("""---""")
      
@@ -268,6 +268,8 @@ with tab3:
      with st.container():
           st.subheader("Courseraでデータサイエンス専門講座を複数修了")    
           st.caption('Specialization (専門講座) とは複数コースのセットである')
+
+          st.image(c1)
           col1, col2, col3 = st.columns(3)
           with col1:
                st.image(c1)
