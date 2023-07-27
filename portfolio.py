@@ -259,9 +259,13 @@ with tab3:
 
      with st.container():
           st.subheader("Pythonプログラミング資格")
-          # st.image(python01)
-          # st.image(python02)
           st.image(python03)
+          col1, col2 = st.columns(2)
+          with col1:
+               st.image(python01)
+          
+          with col2:
+               st.image(python02)
      st.markdown("""---""")
      
 
@@ -270,7 +274,19 @@ with tab3:
           st.caption('Specialization (専門講座) とは複数コースのセットである')
 
           st.image(c1)
-          col1, col2, col3 = st.columns(3)
+          st.image(c2)
+          st.image(c3)
+          st.image(c4)
+          st.image(c5)
+          st.image(c6)
+          st.image(c7)
+          st.image(c8)
+          st.image(c9)
+          st.image(c10)
+          st.image(c11)
+          st.image(c12)
+          
+          
           with col1:
                st.image(c1)
           with col2:
