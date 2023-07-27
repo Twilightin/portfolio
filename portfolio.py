@@ -58,6 +58,11 @@ c12 = Image.open('c13-1.png')
 kaggle0 = Image.open('kaggle0.png')
 kaggle1 = Image.open('kaggle1.png')
 
+pytho01 = Image.open('python01-1.png')
+pytho02 = Image.open('python02-1.png')
+pytho03 = Image.open('python03-1.png')
+
+
 ai_mov01 = open('ai_mov01.mp4', 'rb')
 ai_mbytes01 = ai_mov01.read()
 
@@ -250,6 +255,14 @@ with tab3:
           st.subheader("Kaggleで最上位2%にランクイン")
           st.image(kaggle0)
      st.markdown("""---""")
+
+     with st.container():
+          st.subheader("Pythonプログラミング資格")
+          st.image(python01)
+          st.image(python02)
+          st.image(python03)
+     st.markdown("""---""")
+     
 
      with st.container():
           st.subheader("Courseraでデータサイエンス専門講座を複数修了")    
