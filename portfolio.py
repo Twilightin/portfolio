@@ -48,9 +48,9 @@ c12 = Image.open('c13-1.png')
 kaggle0 = Image.open('kaggle0.png')
 kaggle1 = Image.open('kaggle1.png')
 
-python1 = Image.open('kaggle0.png')
-python2 = Image.open('kaggle0.png')
-python3 = Image.open('kaggle0.png')
+python1 = Image.open('python1.png')
+python2 = Image.open('python2.png')
+python3 = Image.open('python3.png')
 
 ai_mov01 = open('ai_mov01.mp4', 'rb')
 ai_mbytes01 = ai_mov01.read()
