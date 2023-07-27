@@ -48,9 +48,9 @@ c12 = Image.open('c13-1.png')
 kaggle0 = Image.open('kaggle0.png')
 kaggle1 = Image.open('kaggle1.png')
 
-python1 = Image.open('python1.png')
-python2 = Image.open('python2.png')
-python3 = Image.open('python3.png')
+python01 = Image.open('python01.png')
+python02 = Image.open('python02.png')
+python03 = Image.open('python03.png')
 
 ai_mov01 = open('ai_mov01.mp4', 'rb')
 ai_mbytes01 = ai_mov01.read()
@@ -259,9 +259,9 @@ with tab3:
 
      with st.container():
           st.subheader("Pythonプログラミング資格")
-          st.image(python1)
-          st.image(python2)
-          st.image(python3)
+          st.image(python01)
+          st.image(python02)
+          st.image(python03)
      st.markdown("""---""")
      
 
