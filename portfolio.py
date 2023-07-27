@@ -5,16 +5,6 @@ from PIL import Image
 from annotated_text import annotated_text
 from streamlit_extras.colored_header import colored_header
 
-def header(url):
-     st.markdown(f'<p style="background-color:#0066cc;color:grey;font-size:20px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
-
-# header("notice")
-
-with st.sidebar:
-  st.title('郭 熾辰')
-  st.header("Chishin Kaku")
-  st.write('A passionate data scientist')
-
 url01 = 'https://twilightin-titanicpred-app-titanicpred-app-48ml2g.streamlit.app/'
 url02 = 'https://twilightin-topnews-app-topnews-app-nmz8mo.streamlit.app/'
 url03 = 'https://twilightin-plotlyanime-app-plotlyanime-app-kpw3se.streamlit.app/'
@@ -85,6 +75,18 @@ video_bytes06 = video_file06.read()
 
 video_file07 = open('app07.mp4', 'rb')
 video_bytes07 = video_file07.read()
+
+
+def header(url):
+     st.markdown(f'<p style="background-color:#0066cc;color:grey;font-size:20px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
+
+# header("notice")
+
+with st.sidebar:
+  st.title('郭 熾辰')
+  st.header("Chishin Kaku")
+  st.write('A passionate data scientist')
+
 
 tab1, tab2, tab3 = st.tabs(["Data Science", "AI Generated Content（AIGC）", "Accomplishments"])
 
